@@ -135,10 +135,3 @@ struct OnboardingView: View {
 #Preview {
     OnboardingView()
 }
-
-
-//Button(action: {
-//    isOnboardingViewActive = false
-//}, label: {
-//    Text("Start")
-//})
