@@ -166,7 +166,10 @@ struct OnboardingView: View {
               .padding()
               .opacity(isAnimating ? 1 : 0 )
               .offset(y : isAnimating  ? 0 : 40 )
-              .animation(.easeOut(duration: 1),value: isAnimating)
+              .animation(
+                .easeOut(duration: 1),
+                value: isAnimating
+              )
               .overlay {
                   if buttonOffset > buttonWidth / 2{
                            Text("Keep Swipe")
